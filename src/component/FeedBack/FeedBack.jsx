@@ -41,7 +41,7 @@ const userData = [
         id: "@herisaimon",
         profile: profile,
         twitter: twitter,
-        style: "lg:mt-[-80px]"
+        style: "lg:mt-[-100px]"
     },
     {
         feedback: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt Velit officia consequat duis enim velit mollit. Exercitation veniam consequat suntnostrud amet..",
