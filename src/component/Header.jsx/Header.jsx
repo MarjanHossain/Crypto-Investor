@@ -16,7 +16,7 @@ const Header = () => {
     </>
     const [toggle, setToggle] = useState(false);
     return (
-        <nav className="flex lg:pt-10 pt-5 justify-between z-10 items-center lg:px-20 ">
+        <nav className="flex lg:pt-10 pt-5 justify-between z-10 items-center lg:px-20  ">
             <div className=" lg:px-0" >
                 <img src={logo} alt="" />
             </div>
@@ -45,6 +45,7 @@ const Header = () => {
             <ul className={`absolute list-none right-5 bg-gray-800 mt-64 py-9 px-4 space-y-3 text-lg rounded-2xl font-medium hover hover:bg-red-500 ${toggle ? "block" : "hidden"}`} >
                 {menu}
             </ul>
+
 
 
         </nav>

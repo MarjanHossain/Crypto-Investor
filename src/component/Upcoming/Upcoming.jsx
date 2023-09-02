@@ -41,15 +41,15 @@ const Upcoming = () => {
                 </div>
 
                 {/* //? Center */}
-                <div className="flex items-center pt-3 lg:pt-0">
+                <div className="flex items-center p-3 lg:pt-0 px-3 lg:px-0 ">
                     <div className="flex h-1/2 gap-12">
                         <div className="space-y-2">
                             <img src={guest1} alt="" />
-                            <h1 className="lg:text-2xl text-xl font-semibold">Guest: Amal Quber</h1>
+                            <h1 className="lg:text-2xl lg font-semibold">Guest: Amal Quber</h1>
                         </div>
                         <div className="space-y-2">
                             <img src={guest2} alt="" />
-                            <h1 className="lg:text-2xl text-xl font-semibold ">Guest: Nick Harris</h1>
+                            <h1 className="lg:text-2xl text-lg font-semibold ">Guest: Nick Harris</h1>
                         </div>
                     </div>
                 </div>

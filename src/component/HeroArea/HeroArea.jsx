@@ -5,6 +5,7 @@ import member4 from "../../images/Icon/MemberShip/Ellipse 4.png"
 import bgTop from "../../images/Space/last-top-bg.png"
 import bgBottom from "../../images/Space/bg-bottom.png"
 import space from "../../images/Space/Space_bg1.png"
+import Background from "../Background/Background"
 
 
 const HeroArea = () => {
@@ -46,9 +47,6 @@ const HeroArea = () => {
                 <img src={bgTop} alt="" className="absolute" />
                 <img src={bgBottom} alt="" className="absolute top-9 " />
             </div>
-
-
-
 
 
 

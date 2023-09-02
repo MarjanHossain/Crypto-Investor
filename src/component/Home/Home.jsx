@@ -14,7 +14,7 @@ import Upcoming from "../Upcoming/Upcoming";
 
 const Home = () => {
     return (
-        <div className="">
+        <div className=" ">
             <Header />
             <Background />
             <HeroArea />
