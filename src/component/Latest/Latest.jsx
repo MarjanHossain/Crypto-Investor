@@ -26,7 +26,7 @@ const SWicon = <>
 const WorldIcon = <>
     <img className="w-14 h-14" src={world} alt="" />
     <p className=" items-center pt-3 opacity-80   ">
-        Metamoonshots is a top ranke....</p>
+        Metamoonshots....</p>
 </>
 
 const iconAbsolute =

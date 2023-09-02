@@ -10,7 +10,7 @@ const Community = () => {
                     <div className="relative ">
                         <h1 className="lg:text-[32px] text-xl font-semibold ">Ready to Join the Community?</h1>
                     </div>
-                    <p className="lg:text-xl">
+                    <p className=" text-primary">
                         Giveaways, daily crypto news, and over 50 coins, tokens, or NFT investments every month — <br className="hidden lg:block" /> there’s a lot to get excited about. Come and see for yourself.
                     </p>
                 </div>

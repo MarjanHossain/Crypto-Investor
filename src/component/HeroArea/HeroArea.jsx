@@ -13,9 +13,9 @@ const HeroArea = () => {
             <div className="lg:flex lg:px-20 ">
                 {/* //? Header Side */}
                 <div className="lg:space-y-6 space-y-4 ">
-                    <h1 className="lg:text-[70px] font-semibold line font-mono leading-tight text-4xl">Community for <br /> crypto investor</h1>
+                    <h1 className="lg:text-6xl font-semibold line font-mono leading-tight text-4xl">Community for <br /> crypto investor</h1>
 
-                    <p className="lg:text-[20px] font-normal">Meta moonshots is a top ranked influencer community for crypto <br className="lg:block hidden" /> investor.We feature crypto project is through AMO  </p>
+                    <p className="text-[#A7A3AF] font-normal">Meta moonshots is a top ranked influencer community for crypto <br className="lg:block hidden" /> investor.We feature crypto project is through AMO  </p>
                     {/*//?------------ Button ------------------*/}
                     <div className="lg:space-y-6   ">
                         <div className="flex justify-center lg:justify-normal">

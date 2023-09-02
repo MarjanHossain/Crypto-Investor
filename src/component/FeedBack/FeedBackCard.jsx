@@ -1,8 +1,8 @@
 
 const FeedBackCard = ({ userInfo }) => {
-    const { name, id, profile, twitter, feedback } = userInfo;
+    const { name, id, profile, twitter, feedback, style } = userInfo;
     return (
-        <div className="bg-[#2F283B]  px-5 w-[300px] space-y-6 lg:py-6 py-3 shadow-xl shadow-[#7255ad] rounded-lg">
+        <div className={`bg-[#2F283B]  px-5  space-y-6 lg:py-6 py-3 shadow-xl shadow-[#7255ad] rounded-lg ${style} lg:mb-0 mb-5 `}>
             <p className="text-sm opacity-80">{feedback}</p>
             <div className="flex items-center justify-between">
                 <div className="flex gap-2">

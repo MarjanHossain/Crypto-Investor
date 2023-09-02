@@ -3,6 +3,7 @@ import img2 from "../../images/Others/Rectangle 9.png"
 import img3 from "../../images/Others/Rectangle 10.png"
 import scroll from "../../images/Others/scrool.png"
 import sideArrow from "../../images/Others/sideArrow.png"
+import leftArrow from "../../images/Others/leftArrow.png"
 import playBtn from "../../images/Others/bi_play-fill.png"
 import cheese1 from "../../images/Others/Cheese Half 4.png"
 import cheese2 from "../../images/Others/Cheese Half 7.png"
@@ -15,10 +16,10 @@ const AMAs = () => {
                 {/* //? header part */}
                 <div className=" lg:space-y-10 space-y-3">
                     <div className="relative ">
-                        <h1 className="lg:text-[56px] text-xl font-semibold ">Featured AMAs</h1>
+                        <h1 className="lg:text-5xl text-2xl font-semibold ">Featured AMAs</h1>
                         <div className="headerIcon lg:top-10 "><img src={header} className="w-1/2 lg:w-full" alt="" /></div>
                     </div>
-                    <p className="lg:text-xl">
+                    <p className="lg:text-lg text-primary">
                         Metamoonshots is a top ranked influencer community for crypto investors🔮 <br className="hidden lg:block" />
                         We feature crypto projects through AMA.
                     </p>
@@ -45,11 +46,16 @@ const AMAs = () => {
                         <div className="absolute inset-0 flex items-center justify-center">
                             <img src={playBtn} className="bg-white rounded-full  bottom-p" alt="" />
                         </div>
+
                     </div>
 
-                    {/* // ? side Btn */}
-                    <div className="absolute inset-6 flex items-center justify-end   ">
-                        <img className="bg-white bg-opacity-10 rounded-full hover:bg-orange-700  " src={sideArrow} alt="" />
+                    {/* // ? side Arrow */}
+                    <div className="absolute inset-6 flex items-center justify-end    ">
+                        <img className="bg-white bg-opacity-10 rounded-full px-3 py-3 hover:bg-orange-700  " src={sideArrow} alt="" />
+                    </div>
+                    {/* // ? left arrow */}
+                    <div className="absolute inset-0  flex items-center  ">
+                        <img className="bg-white bg-opacity-10 rounded-full px-3 py-3 hover:bg-orange-700  " src={leftArrow} alt="" />
                     </div>
                 </div>
 

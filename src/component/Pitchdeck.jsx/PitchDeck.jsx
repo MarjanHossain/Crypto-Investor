@@ -18,25 +18,25 @@ const PitchDeck = () => {
                         <br className="hidden lg:block" /> investors🔮 We feature crypto  projects through AMA.
                     </p>
                     {/* //? Follower part */}
-                    <div className="flex justify-center">
-                        <div className="flex  bg-[#2C263A]   px-5 py-4 gap-4">
+                    <div className="flex justify-center   ">
+                        <div className="flex  bg-[#2C263A]  lg:my-6 px-7 py-6 gap-6 rounded-2xl card">
                             <div>
-                                <h1 className="text-[40px] font-semibold">25k+</h1>
-                                <h2 className="text-xl font-normal">Telegram</h2>
+                                <h1 >25k+</h1>
+                                <h2 >Telegram</h2>
                             </div>
                             <div>
-                                <h1 className="text-[40px] font-semibold">3205k+</h1>
-                                <h2 className="text-xl font-normal">Twitter</h2>
+                                <h1 >320k+</h1>
+                                <h2  >Twitter</h2>
                             </div>
                             <div>
-                                <h1 className="text-[40px] font-semibold">2k+</h1>
-                                <h2 className="text-xl font-normal">Discord</h2>
+                                <h1 >2k+</h1>
+                                <h2 >Discord</h2>
                             </div>
                         </div>
                     </div>
                     {/* //? Btn */}
 
-                    <div className="flex justify-center"> <button className="btn">Join Our Biggest Community</button></div>
+                    <div className="flex justify-center"> <button className="btn ">Join Our Biggest Community</button></div>
                 </div>
 
                 {/* //? Diagram */}

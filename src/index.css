@@ -41,3 +41,21 @@ background-image: url("../src/images/UpComingImg/UpcomingBg.png");
 .link div Link{
   @apply text-5xl
 }
+
+.text-primary{
+  @apply text-[#A7A3AF]
+}
+.rightSide h1{
+  @apply text-4xl font-semibold  
+}
+.rightSide h2{
+  @apply text-xl font-medium 
+}
+
+.card h1{
+  @apply lg:text-4xl text-3xl font-semibold pb-3
+}
+
+.card h2{
+  @apply lg:text-xl text-lg font-normal text-center
+}

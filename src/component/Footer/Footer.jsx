@@ -22,18 +22,18 @@ const Footer = () => {
                     </div>
 
                     {/* //? Link Part */}
-                    <div className="lg:space-y-4 space-y-4   ">
-                        <div className="text-xl" ><Link>About Us</Link></div>
-                        <div className="text-xl" ><Link>AMA Review</Link></div>
-                        <div className="text-xl" ><Link>Partners</Link></div>
-                        <div className="text-xl" ><Link>Success Stories</Link></div>
+                    <div className="lg:space-y-4 space-y-4 lg:text-xl pt-3 lg:pt-0  ">
+                        <div className="" ><Link>About Us</Link></div>
+                        <div className="" ><Link>AMA Review</Link></div>
+                        <div className="" ><Link>Partners</Link></div>
+                        <div className="" ><Link>Success Stories</Link></div>
 
                     </div>
                 </div>
 
                 {/* Login */}
                 <div className="space-y-4 pt-20 lg:pt-0 ">
-                    <h1 className="text-2xl font-semibold">Stay Up To Date With MetamoonShot</h1>
+                    <h1 className="text-2xl font-semibold text-center lg:text-left">Stay Up To Date With MetamoonShot</h1>
 
                     <div className="pt-2" >
                         <input type="email" name="" id="" placeholder="Type Your Email here " className="w-full  px-4 py-3 bg-[#221E30] rounded-2xl" />

@@ -23,7 +23,7 @@ const Header = () => {
             {/* Large Device */}
 
             <div className="lg:flex  items-center gap-10 hidden ">
-                <ul className="flex gap-10 hover">
+                <ul className="flex gap-10 ">
                     {menu}
                 </ul>
                 <div className="flex icon gap-8 border border-white border-opacity-20 px-3 py-2 rounded-2xl bg-white bg-opacity-10 hover">
