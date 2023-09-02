@@ -1,6 +1,8 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 .backGround{
   background: var(--gradient, linear-gradient(0deg, #E28B22 0%, #03002A 100%));
@@ -14,4 +16,20 @@
 .hover li{
   @apply hover:text-orange-600 transition-all
 
+}
+.btn{
+  @apply  px-14 py-4 rounded-xl bg-gradient-to-br from-[#AC6D27] to-[#3732A8] hover:bg-gradient-to-br hover:from-[#3732A8]  hover:to-[#AC6D27] transition-all  z-10 text-xl
+}
+.abs img{
+  @apply absolute
+}
+.bg-upcoming{
+background-image: url("../src/images/UpComingImg/UpcomingBg.png");
+}
+
+.headerIcon{
+@apply absolute  lg:right-[420px] right-20 lg:bottom-0
+}
+.hostBg{
+  background-image: url("../src/images/Others/hostBg.png");
 }

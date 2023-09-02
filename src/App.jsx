@@ -4,10 +4,10 @@ function App() {
 
 
   return (
-    <section className="max-[1440px] bg-[#090519] h-screen text-white lg:px-20 px-4 font-Jamjuree z-20">
+    <main className="max-[1440px]  text-white bg-[#03002A]  px-4 lg:px-0 font-Jamjuree z-20">
       <Home />
 
-    </section>
+    </main>
   )
 }
 
