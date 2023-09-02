@@ -1,5 +1,8 @@
 import AMAs from "../AMAs/AMAs";
 import Background from "../Background/Background";
+import Community from "../Community/Community";
+import FeedBack from "../FeedBack/FeedBack";
+import Footer from "../Footer/Footer";
 import Header from "../Header.jsx/Header";
 import HeroArea from "../HeroArea/HeroArea";
 import Host from "../Host/Host";
@@ -22,6 +25,9 @@ const Home = () => {
             <Latest />
             <Host />
             <Investor />
+            <FeedBack />
+            <Community />
+            <Footer />
 
         </div>
     );

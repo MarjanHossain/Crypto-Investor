@@ -33,3 +33,11 @@ background-image: url("../src/images/UpComingImg/UpcomingBg.png");
 .hostBg{
   background-image: url("../src/images/Others/hostBg.png");
 }
+
+.bg-icon img{
+  @apply bg-white bg-opacity-5 p-2
+}
+
+.link div Link{
+  @apply text-5xl
+}
