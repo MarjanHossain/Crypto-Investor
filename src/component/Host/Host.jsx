@@ -18,7 +18,7 @@ const Host = () => {
                     <p className="lg:text-xl px-4 lg:px-0 text-justify lg:text-center">From our AMA structure to our informative hosts, you won’t find another crypto investor space quite like us. <br className="hidden lg:block" /> Tell us when you want to schedule an AMA. Our team will take care of the rest.</p>
                     {/* Button */}
                     <button className="btn">
-                        book An AMA
+                        Book An AMA
                     </button>
 
 

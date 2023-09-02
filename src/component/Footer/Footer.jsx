@@ -12,8 +12,8 @@ const Footer = () => {
                 {/* //? Logo Part */}
                 <div className="flex flex-1 justify-evenly ">
                     <div className="space-y-6">
-                        <div className="ps-6"><img src={logo} alt="" className="" /></div>
-                        <div className="flex gap-4 bg-icon">
+                        <div className="lg:ps-6 ps-3"><img src={logo} alt="" className="" /></div>
+                        <div className="flex lg:gap-4 gap-2 bg-icon">
                             <img src={youtube} alt="" />
                             <img src={telegram} alt="" />
                             <img src={twitter} alt="" />
