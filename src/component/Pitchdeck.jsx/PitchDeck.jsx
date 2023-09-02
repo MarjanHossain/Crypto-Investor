@@ -13,7 +13,7 @@ const PitchDeck = () => {
                             <img src={header} alt="" className="w-1/2 lg:w-full" />
                         </div>
                     </div>
-                    <p className="lg:text-xl">
+                    <p >
                         Metamoonshots is a top ranked influencer community for crypto
                         <br className="hidden lg:block" /> investors🔮 We feature crypto  projects through AMA.
                     </p>
