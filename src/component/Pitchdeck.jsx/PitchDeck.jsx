@@ -4,7 +4,7 @@ import header from "../../images/Others/header.png"
 const PitchDeck = () => {
     return (
         <section>
-            <div className="lg:px-20 lg:pt-20 pt-10 lg:flex items-center ">
+            <div className="lg:px-20 lg:pt-20 pt-10 lg:flex items-center justify-around ">
                 {/* //? Heading part */}
                 <div className="space-y-5">
                     <div className="pb-5 relative ">
