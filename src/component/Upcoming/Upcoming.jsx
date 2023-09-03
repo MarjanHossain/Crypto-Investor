@@ -55,7 +55,7 @@ const Upcoming = () => {
                 </div>
                 {/* Right */}
                 <div className="flex items-center bg-[#3D34A2] px-5" >
-                    <div className="lg:space-y-4 flex gap-11 lg:block text-center rightSide ">
+                    <div className="lg:space-y-4 flex lg:gap-11 gap-8 lg:block text-center rightSide ">
                         <div>
                             <h1 >00</h1>
                             <h2 >Days</h2>
